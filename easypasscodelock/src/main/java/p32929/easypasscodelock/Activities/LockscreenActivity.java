@@ -212,14 +212,23 @@ public class LockscreenActivity extends LockscreenHandler implements ActivityCha
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+/*        super.onBackPressed();
         if (status.equals("check")) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
                 finishAffinity();
             } else {
                 ActivityCompat.finishAffinity(this);
             }
-        }
+        } */
     }
+
+
+    @Override
+    protected void onUserLeaveHint() {
+        // Disable the home button
+        //Toast.makeText(this, "Home button disabled", Toast.LENGTH_SHORT).show();
+        //Log.i("Home button disabled");
+    }
+
 
 }

@@ -12,27 +12,35 @@
         android:layout_height="wrap_content"
         android:onClick="setPass"
         android:layout_marginBottom="16dp"
-        android:text="Set" />
+        android:text="Set a pincode" />
 
     <Button
         android:layout_width="match_parent"
         android:onClick="changePass"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Change" />
+        android:text="Change my pincode" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="disable"
         android:layout_marginBottom="16dp"
-        android:text="Disable" />
+        android:text="Disable the pincode" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="checkPass"
         android:layout_marginBottom="16dp"
-        android:text="Check" />
+        android:textStyle="bold"
+        android:text="Lock my unit" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exitApp"
+        android:layout_marginBottom="16dp"
+        android:text="Exit" />
 
 </LinearLayout>
