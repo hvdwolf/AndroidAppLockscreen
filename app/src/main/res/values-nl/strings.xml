@@ -1,0 +1,7 @@
+<resources>
+    <string name="set_pincode">Stel een pincode in</string>
+    <string name="change_pincode">Mijn pincode wijzigen</string>
+    <string name="disable_pincode">Pincode uitschakelen</string>
+    <string name="lock_unit">Vergrendel mijn unit</string>
+    <string name="exit_app">Verlaat app</string>
+</resources>

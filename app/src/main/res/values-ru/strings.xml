@@ -1,0 +1,7 @@
+<resources>
+    <string name="set_pincode">Установка пинкода</string>
+    <string name="change_pincode">Изменить мой пинкод</string>
+    <string name="disable_pincode">Отключить пинкод</string>
+    <string name="lock_unit">Заблокируйте мое устройство</string>.
+    <string name="exit_app">Выйти из приложения</string>.
+</resources>

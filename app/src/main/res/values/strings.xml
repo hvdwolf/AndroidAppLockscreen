@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">PasscodeLock</string>
+    <string name="app_name">PincodeLock</string>
+    <string name="set_pincode">Set a Pincode</string>
+    <string name="change_pincode">Change my Pincode</string>
+    <string name="disable_pincode">Disable the Pincode</string>
+    <string name="lock_unit">Lock my unit</string>
+    <string name="exit_app">Exit</string>
 </resources>

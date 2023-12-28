@@ -1,0 +1,7 @@
+<resources>
+    <string name="set_pincode">Configurar un Pincode</string>
+    <string name="change_pincode">Cambiar mi Pincode</string>
+    <string name="disable_pincode">Desactivar el Pincode</string>
+    <string name="lock_unit">Bloquear mi unidad</string>
+    <string name="exit_app">Salir</string>
+</resources>

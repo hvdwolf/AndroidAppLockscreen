@@ -4,43 +4,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
+    android:background="#3F51B5"
     android:orientation="vertical"
     tools:context="p32929.passcodelock.MainActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:onClick="setPass"
-        android:layout_marginBottom="16dp"
-        android:text="Set a pincode" />
+        android:text="@string/set_pincode" />
 
     <Button
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:onClick="changePass"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="Change my pincode" />
+        android:text="@string/change_pincode" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:onClick="disable"
-        android:layout_marginBottom="16dp"
-        android:text="Disable the pincode" />
+        android:text="@string/disable_pincode" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:onClick="checkPass"
-        android:layout_marginBottom="16dp"
-        android:textStyle="bold"
-        android:text="Lock my unit" />
+        android:text="@string/lock_unit"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="exitApp"
         android:layout_marginBottom="16dp"
-        android:text="Exit" />
+        android:onClick="exitApp"
+        android:text="@string/exit_app" />
 
 </LinearLayout>
